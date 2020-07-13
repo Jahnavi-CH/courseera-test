@@ -75,16 +75,13 @@ h3{
 /**Large devices only**/
 @media (min-width: 1200px) {
   #chicken {
-  	width:100%;
-  	height:100%;
+  	width:90%;
   }
   #beef {
-  	width:100%;
-  	height:100%;
+  	width:90%;
   }
   #sushi {
-  	width:100%;
-  	height:100%;
+  	width:90%;
   }
 }
 
