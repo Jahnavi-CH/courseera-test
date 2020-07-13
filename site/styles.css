@@ -26,14 +26,14 @@ body{
 #nav-list{
 	margin-top: 10px;
 }
-#nav-list a:hover {
+#nav-list span:hover {
 	background:#E7E7E7;
 }
-#nav-list a{
+#nav-list span{
 	color:#61122f;
 	text-align: center;
 }
-#nav-list a span {
+#nav-list  span {
 	font-size:1.4em;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -41,6 +41,15 @@ body{
 }
 /**END OF HEADER**/
 /**Jumbotron**/
+.container{
+	position:relative;
+}
+h2 {
+	margin-bottom: 30px;
+	padding-top:10px;
+	text-align: center;
+	color:orange;
+}
 #chicken{
 	background-color: orange;
     padding:10px 10px 10px 10px;
@@ -48,6 +57,7 @@ body{
 	color:white;
 	margin-bottom: 30px;
 	font-family: Comic Sans MS,cursive, sans-serif;
+	width: 100%;
 }
 #beef{
 	background-color: orange;
